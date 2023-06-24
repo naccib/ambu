@@ -33,7 +33,7 @@ export function ShareDisplay({ title, content, created }: ShareDisplayProperties
               </p>
             </div>
             <div className="mt-2 text-base text-gray-500">
-              content
+              {content}
             </div>
           </li>
           <li>
